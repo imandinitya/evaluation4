@@ -1,4 +1,4 @@
-const pool = require ("../cofig/db");
+const pool = require ("../cofig/db.js");
 const{validationResult} = require ("express-validator");
 
 exports.createOrder = async (req, res) => {
